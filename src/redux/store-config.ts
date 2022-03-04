@@ -3,7 +3,6 @@ import { createStore, applyMiddleware } from 'redux';
 // import { createLogger } from 'redux-logger';
 import { persistStore, persistReducer } from 'redux-persist';
 import createSagaMiddleware from 'redux-saga';
-import thunk from 'redux-thunk';
 
 import rootReducer from './reducer-config';
 import rootSaga from './middleware-config';
